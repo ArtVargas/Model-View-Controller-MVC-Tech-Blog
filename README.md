@@ -10,6 +10,7 @@ Challenge this week is to build a CMS-style blog site similar to a Wordpress sit
 [Link To JS Functions](https://www.w3schools.com/js/js_functions.asp)
 [Link To MIT License](https://choosealicense.com/licenses/mit/)
 
+# MIT License
 MIT License
 
 Copyright (c) [2023] [Model-View-Controller-MVC-Tech-Blog]

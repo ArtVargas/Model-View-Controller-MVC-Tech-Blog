@@ -23,20 +23,20 @@ len: [1],
 },
 },
 user_id: {
-    type: DataTypes.INTEGER,
-    references: {
-    model: "user",
-    key: "id",
-    },
-    },
-    },
-    {
-    sequelize,
-    timestamps: true,
-    freezeTableName: true,
-    underscored: true,
-    modelName: "post",
-    }
-    );
+ type: DataTypes.INTEGER,
+references: {
+model: "user",
+key: "id",
+},
+},
+},
+{
+sequelize,
+timestamps: true,
+freezeTableName: true,
+underscored: true,
+modelName: "post",
+}
+);
     
     module.exports= Post;
